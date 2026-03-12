@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videos — Ministerio Palabra Viva</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=Barlow:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="elcaracter.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <header>
+    <div class="header-inner">
+      <a class="back-btn" href="./../index.html">← Inicio</a>
+      <div class="brand">✝ El caracter del discipulo de Cristo</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-tag">Canal de YouTube</div>
+    <h1>Videos &amp; <em>Mensajes</em></h1>
+    <p>Todos nuestros mensajes grabados en video, disponibles para ti en cualquier momento.</p>
+  </section>
+
+  <div class="controls">
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search-input" placeholder="Buscar video…" />
+    </div>
+  </div>
+
+  <!-- Featured video: el primero del JSON -->
+  <div class="featured-wrap" id="featured-wrap" style="display:none">
+    <div class="featured-label">Último mensaje</div>
+    <div class="featured-player">
+      <iframe id="featured-iframe" allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+    <div class="featured-info">
+      <h2 id="featured-title"></h2>
+      <div class="featured-meta">
+        <span id="featured-date"></span>
+        <span id="featured-preacher"></span>
+      </div>
+    </div>
+  </div>
+
+  <section class="grid-section">
+    <div class="section-header">
+      <span class="section-title">Todos los videos</span>
+      <span class="video-count" id="video-count"></span>
+    </div>
+    <div id="video-grid">
+      <div class="empty">Cargando videos…</div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2024 Ministerio Palabra Viva</span>
+    <span>Todos los derechos reservados</span>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-backdrop" id="modal">
+    <div class="modal">
+      <div class="modal-close"><button onclick="closeModal()">✕ Cerrar</button></div>
+      <div class="modal-player"><iframe id="modal-iframe" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+      </div>
+      <div class="modal-info">
+        <h3 id="modal-title"></h3>
+        <p id="modal-desc"></p>
+      </div>
+    </div>
+  </div>
+  <script src="elcaracter.js"></script>
+</body>
+
+</html>

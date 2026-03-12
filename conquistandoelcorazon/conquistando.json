@@ -1,0 +1,23 @@
+[
+  {
+    "titulo": "La fe que mueve montañas",
+    "predicador": "Pastor Juan",
+    "fecha": "2024-03-10",
+    "descripcion": "Reflexión sobre Mateo 17:20 y cómo la fe genuina transforma nuestra vida diaria.",
+    "archivo": "2024-03-10-la-fe-que-mueve-montanas.mp3"
+  },
+  {
+    "titulo": "El amor incondicional de Dios",
+    "predicador": "Pastor Juan",
+    "fecha": "2024-03-03",
+    "descripcion": "Un mensaje sobre Juan 3:16 y la profundidad del amor de Dios por cada uno de nosotros.",
+    "archivo": "2024-03-03-el-amor-incondicional.mp3"
+  },
+  {
+    "titulo": "Gracia y Misericordia",
+    "predicador": "Hermano Carlos",
+    "fecha": "2024-02-25",
+    "descripcion": "Estudio sobre Efesios 2:8 y el regalo inmerecido de la salvación.",
+    "archivo": "2024-02-25-gracia-y-misericordia.mp3"
+  }
+]
