@@ -7,10 +7,10 @@
 }
 
 :root {
-    --ink: #0D0D0D;
-    --cream: #F4EFE6;
-    --gold: #B8924A;
-    --gold2: #D4AF6A;
+    --ink: #ffffff;
+    --cream: #000000;
+    --gold: #009caf;
+    --gold2: #ade7ec;
     --dim: #7A7065;
 }
 
@@ -20,9 +20,26 @@ body {
 }
 
 body {
+    display: flex;             /* Enable flexbox */
+    justify-content: center;   /* Horizontal centering */
+    align-items: flex-start;       /* Vertical centering */
+    text-align: center;        /* Center text inside elements */
     background: var(--ink);
     color: var(--cream);
     font-family: 'Barlow', sans-serif;
+}
+
+/* svg */
+
+.svg-container {
+    width: 100%;       /* Ocupa todo el ancho de su padre */
+    max-width: 800px;  /* Pero no crecerá más de 500px */
+    margin: auto;
+}
+
+.svg-responsive {
+    width: 100%;
+    height: auto;
 }
 
 .bg {
@@ -30,8 +47,8 @@ body {
     inset: 0;
     z-index: 0;
     background:
-        radial-gradient(ellipse 80% 60% at 20% 80%, rgba(184, 146, 74, 0.08) 0%, transparent 60%),
-        radial-gradient(ellipse 60% 80% at 80% 10%, rgba(184, 146, 74, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse 80% 60% at 20% 80%, rgba(160, 0, 175, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 80% at 80% 10%, rgba(160, 0, 175, 0.08) 0%, transparent 55%),
         var(--ink);
 }
 
@@ -53,25 +70,10 @@ nav {
     animation: fadeDown 0.7s ease both;
 }
 
-.brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--gold);
-}
-
-.verse {
-    font-size: 0.72rem;
-    color: var(--dim);
-    font-style: italic;
-}
-
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 3rem;
     padding: 3rem 0;
 }
@@ -80,26 +82,6 @@ main {
     animation: fadeUp 0.7s 0.1s ease both;
 }
 
-.headline h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(3rem, 8vw, 6.5rem);
-    font-weight: 300;
-    line-height: 1.05;
-}
-
-.headline h1 em {
-    font-style: italic;
-    color: var(--gold2);
-}
-
-.headline p {
-    margin-top: 1.25rem;
-    font-size: 0.92rem;
-    font-weight: 300;
-    color: var(--dim);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
 
 .cards {
     display: grid;
