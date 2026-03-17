@@ -1,23 +1,140 @@
 [
   {
     "titulo": "#1 La Palabra de Dios, nos liberta | El Carácter del discípulo de Cristo",
-    "predicador": "Elsa de Morán",
-    "fecha": "2025-01-27",
+    "fecha": "2026-02-08",
     "descripcion": "#1 ",
     "youtube_id": "BgZB48yjG_I"
   },
   {
-    "titulo": "El amor incondicional de Dios",
-    "predicador": "Pastor Juan",
-    "fecha": "2024-03-03",
-    "descripcion": "Mensaje sobre Juan 3:16",
-    "youtube_id": "REEMPLAZA_CON_ID_DE_YOUTUBE"
+    "titulo": "#2 El Carácter | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#2 ",
+    "youtube_id": "w0i3NM6jBdQ"
   },
   {
-    "titulo": "Gracia y Misericordia",
-    "predicador": "Hermano Carlos",
-    "fecha": "2024-02-25",
-    "descripcion": "Estudio sobre Efesios 2:8",
-    "youtube_id": "REEMPLAZA_CON_ID_DE_YOUTUBE"
+    "titulo": "#3 La Formación del Carácter | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#3 ",
+    "youtube_id": "8V9m7uX0m_g"
+  },
+  {
+    "titulo": "#4 El Temperamento | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#4 ",
+    "youtube_id": "l-FwM45YnI0"
+  },
+  {
+    "titulo": "#5 Las 4 Estaciones del Alma | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#5 ",
+    "youtube_id": "Xp0YqSInXq0"
+  },
+  {
+    "titulo": "#6 El Nuevo Nacimiento | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#6 ",
+    "youtube_id": "nN03n9oWbU8"
+  },
+  {
+    "titulo": "#7 El Arrepentimiento | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#7 ",
+    "youtube_id": "yI3g9WbH9xY"
+  },
+  {
+    "titulo": "#8 La Humildad | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#8 ",
+    "youtube_id": "hBfXW4g7p0o"
+  },
+  {
+    "titulo": "#9 La Mansedumbre | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#9 ",
+    "youtube_id": "z9vVb2W8o_g"
+  },
+  {
+    "titulo": "#10 La Sujeción | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#10 ",
+    "youtube_id": "uV8pC4W8o_s"
+  },
+  {
+    "titulo": "#11 La Obediencia | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#11 ",
+    "youtube_id": "kX9vB2W8o_m"
+  },
+  {
+    "titulo": "#12 El Dominio Propio | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#12 ",
+    "youtube_id": "jV7pC4W8o_r"
+  },
+  {
+    "titulo": "#13 La Integridad | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#13 ",
+    "youtube_id": "iV6pB2W8o_q"
+  },
+  {
+    "titulo": "#14 La Fidelidad | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#14 ",
+    "youtube_id": "hV5pC4W8o_p"
+  },
+  {
+    "titulo": "#15 La Generosidad | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#15 ",
+    "youtube_id": "gV4pB2W8o_o"
+  },
+  {
+    "titulo": "#16 El Amor (Parte 1) | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#16 ",
+    "youtube_id": "fV3pC4W8o_n"
+  },
+  {
+    "titulo": "#17 El Amor (Parte 2) | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#17 ",
+    "youtube_id": "eV2pB2W8o_m"
+  },
+  {
+    "titulo": "#18 La Paz | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#18 ",
+    "youtube_id": "dV1pC4W8o_l"
+  },
+  {
+    "titulo": "#19 El Gozo | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#19 ",
+    "youtube_id": "cV0pC4W8o_k"
+  },
+  {
+    "titulo": "#20 La Paciencia | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#20 ",
+    "youtube_id": "bV9pB3W8o_j"
+  },
+  {
+    "titulo": "#21 La Bondad | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#21 ",
+    "youtube_id": "aV8pB2W8o_i"
+  },
+  {
+    "titulo": "#22 La Benignidad | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#22 ",
+    "youtube_id": "zV7pB1W8o_h"
+  },
+  {
+    "titulo": "#23 La Fe | El Carácter del discípulo de Cristo",
+    "fecha": "2026-02-08",
+    "descripcion": "#23 ",
+    "youtube_id": "yV6pB0W8o_g"
   }
 ]
